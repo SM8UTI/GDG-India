@@ -1,3 +1,4 @@
+import About from "./layouts/About";
 import Footer from "./layouts/Footer";
 import Hero from "./layouts/Hero";
 
@@ -5,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <div className="w-full min-h-dvh"></div>
+      <About />
       <Footer />
     </div>
   );

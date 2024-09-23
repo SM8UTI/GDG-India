@@ -84,7 +84,7 @@ const Folder2 = () => {
                 />
               </svg>
             </div>
-          <h2 className="text-[10vw] md:text-[15vw] lg:text-[6vw] xl:text-[6.6vw] 2xl:text-8xl font-bold font-primary text-text text-left md:text-right w-full">
+          <h2 className="text-[10vw] md:text-[15vw] lg:text-6xl xl:text-6xl 2xl:text-8xl font-bold font-primary text-text text-left md:text-right w-full -mt-8 xl:-mt-4">
             DevFest’24
           </h2>
           </div>
