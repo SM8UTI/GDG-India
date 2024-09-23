@@ -29,7 +29,7 @@ const Folder2 = () => {
               <RiArrowRightUpLine />
             </div>
           </div>
-          <div className="flex flex-col items-start w-full">
+          <div className="flex flex-col gap-8 items-start w-full">
             <div className="md:hidden">
               <svg
                 width="107"
