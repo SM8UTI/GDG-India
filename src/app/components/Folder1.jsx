@@ -20,7 +20,7 @@ const Folder1 = () => {
                 "Women Techmakers",
               ].map((item, index) => (
                 <li
-                  className="text-xl sm:text-2xl lg:text-[18px] 2xl:text-2xl border-text border-2 w-full text-center md:max-w-max rounded-full py-3 px-8 lg:p-2 lg:py-2 2xl:px-[20px] 2xl:py-4"
+                  className="text-base  sm:text-2xl lg:text-[18px] 2xl:text-2xl border-text border-2 w-full text-center md:max-w-max rounded-full py-3 px-8 lg:p-2 lg:py-2 2xl:px-[20px] 2xl:py-4"
                   key={index}
                 >
                   {item}

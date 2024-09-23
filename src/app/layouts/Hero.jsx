@@ -24,7 +24,11 @@ const Hero = () => {
             <div className="p-2 sm:p-4 lg:p-12 grid grid-cols-1 lg:grid-cols-2">
               <div className="flex flex-col gap-12">
                 <div className="w-full lg:hidden">
-                  <img src="/assets/heroImg1.svg" alt="heroImg" className="w-full object-contain" />
+                  <img
+                    src="/assets/heroImg1.svg"
+                    alt="heroImg"
+                    className="w-full object-contain"
+                  />
                 </div>
                 <div className="flex flex-col gap-3 text-text">
                   <span className="text-2xl">Google Communities</span>

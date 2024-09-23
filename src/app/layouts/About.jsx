@@ -3,7 +3,7 @@ import Wrapper from "../../components/Wrapper";
 
 const About = () => {
   return (
-    <div className="py-8 mt-8">
+    <div className="py-8 mt-2">
       <Wrapper>
         <div>
           <div className="w-1/2 hidden xl:flex border-2 border-black h-[100px] border-b-0 lg:shadow-[-14px_0px_0px_0px_#000000] rounded-t-[32px] bg-white"></div>

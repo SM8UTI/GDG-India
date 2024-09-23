@@ -6,17 +6,17 @@ import {
 
 export const socialMediaLinks = [
   {
-    name: "@GoogleDevsIN",
+    name: "@gdgindia",
     url: "https://x.com/GoogleDevsIN",
     icon: <RiTwitterXLine />,
   },
   {
-    name: "GoogleDevsIN",
-    url: "https://x.com/GoogleDevsIN",
+    name: "gdgindia",
+    url: "https://www.instagram.com/gdgindia/",
     icon: <RiInstagramLine />,
   },
   {
-    name: "GoogleDevsIN",
+    name: "gdgindia",
     url: "https://x.com/GoogleDevsIN",
     icon: <RiLinkedinBoxLine />,
   },

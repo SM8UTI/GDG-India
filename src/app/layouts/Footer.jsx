@@ -19,8 +19,8 @@ const Footer = () => {
               </Link>
             ))}
           </div>
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 border-2 border-black shadow-[-10px_10px_0px_0px_#000000] py-9 px-12 rounded-full bg-white">
-            <div className="flex flex-row items-center gap-2 font-primary text-sm` sm:text-base text-text">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-8 border-2 border-black shadow-[-10px_10px_0px_0px_#000000] py-9 px-12 rounded-full bg-white">
+            <div className="flex flex-row items-center gap-2 font-primary text-sm sm:text-base text-text">
               <img
                 src="/assets/logo.svg"
                 alt="Google Developers Group India"
@@ -28,9 +28,9 @@ const Footer = () => {
               />
               <span>Google Developers Group India</span>
             </div>
-            <div className="flex flex-row items-center gap-6 md:gap-12">
+            <div className="flex flex-row items-center gap-4 md:gap-12">
               <span className="text-sm text-mainBlack md:text-base">{new Date().getFullYear()}</span>
-              <div className="flex flex-row items-center gap-6 md:gap-12">
+              <div className="flex flex-row items-center gap-4 md:gap-12">
                 {footerLinks.map((item, index) => (
                   <Link
                     to={item.url}
